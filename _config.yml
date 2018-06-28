@@ -1,0 +1,68 @@
+# Base configuration
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+markdown: kramdown
+highlighter: rouge
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Title
+name: Growstack
+subtitle: Using Nextfood aeroponic systems as a foundation for an open technology stack.
+
+# When using this template with a project page set the baseurl to '/project-name'
+# For user/organization pages set this to an empty string
+# When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
+# See http://jekyllrb.com/docs/github-pages/ for more info
+#baseurl: ''
+baseurl: 'https://thomas-dam.github.io/growstack/'
+
+# Author/Organization info to be displayed in the templates
+# author:
+# name: Growstack
+# url: 'http://growstack.org'
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: assets/img/growstacklogo.png
+logoalt:
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Home
+  url: ./
+  internal: true
+- text: Technology overview.
+  url: tech_page/
+  internal: true
+- text: Materials
+  url: mat_page/
+  internal: true
+- text: Assembly
+  url: assembly_page/
+  internal: true
+- text: Crops
+  url: crop_page/
+  internal: true
+- text: Maintenance
+  url: maint_page/
+  internal: true
+- text: Data
+  url: data_page/
+  internal: true
+
+# Repo list
+# List repos that you would like to appear on the homepage here
+repos:
+- name: Growstack
+  description: Aeroponic open technology stack
+  url: https://github.com/Growstack
+
+# Style Variables
+brand_color: "#2cb34a"
+
+# Offline caching
+offline_cache: false
+cache_name: Growsteck

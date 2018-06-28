@@ -1,2 +1,1 @@
-# wiki.growstack.github.io
-Wiki for Growstack.org
+Documentation for [growstack.org](https://growstack.org).
